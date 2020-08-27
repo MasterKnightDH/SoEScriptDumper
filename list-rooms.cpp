@@ -669,14 +669,15 @@ std::list< std::pair<uint8_t, const char*> > globalscripts = {
     {0x3e, "Loot part1?"},
     {0x3f, "Loot part2?"},
     {0x41, "Loot part3?"},
-    {0x48, "Open shop menu?"},
-    {0x4b, "Open shop menu Pt2?"},
+    {0x48, "Open Ingredient Shop Menu"},
+    {0x4b, "Open Ingredient Shop Ring"},
     {0x4c, "Ask to equip spells"},
     {0x4d, "Save dialog"},
     {0x4e, "Actual save dialog"},
     {0x4f, "Actual saving"},
     {0x54, "Buy ingredients dialog"},
     {0xff, "Salabog dead??"},
+    {0x100, "Attraction Mode"},
 };
 
 static const std::map<uint16_t, const char*> ram = {
